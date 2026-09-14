@@ -1,0 +1,21 @@
+# Install with: pip install -r requirements.txt
+
+# Data access
+statsbombpy>=1.14.0        # StatsBomb Open Data loader
+requests>=2.31.0           # for football-data.org sync (Phase 2)
+
+# Data handling
+pandas>=2.0.0
+pyarrow>=14.0.0             # Parquet read/write for canonical data model
+
+# Tactical / network analysis
+networkx>=3.0               # passing network centrality metrics
+mplsoccer>=1.3.0             # pitch drawing & football visualizations
+matplotlib>=3.7.0
+
+# Modeling (Phase 5+, included now so environments match later)
+scikit-learn>=1.3.0
+
+# Dev/testing
+pytest>=7.4.0
+python-dotenv>=1.0.0        # for API keys (football-data.org, LLM API later)
