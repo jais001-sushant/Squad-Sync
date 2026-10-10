@@ -33,3 +33,5 @@ outputs/figures/*
 outputs/reports/*
 !outputs/figures/.gitkeep
 !outputs/reports/.gitkeep
+
+Help
